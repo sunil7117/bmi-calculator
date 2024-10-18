@@ -1,0 +1,51 @@
+
+section{
+    width: 500px;
+    border:1px solid red
+}
+form{
+    margin: 15px 5px;
+}
+form>div{
+    display: flex;flex-direction: column;
+}
+label{
+    margin: 10px 0;
+}
+input{
+    padding: 5px;
+}
+button{
+    margin: 10px 0;
+    width: 200px;
+    text-transform: uppercase;
+    border: none;
+    padding: 10px 0;
+    border-radius: 10px;
+}
+button:hover{
+    background-color: green;
+    color: white;
+    cursor: pointer;
+}
+#screen{
+    width: 100%;
+    border: 1px solid red;
+}
+section >div{
+    margin: 15px 5px;
+}
+#screen{
+    margin: 10px 0;
+    text-transform: uppercase;
+    border: none;
+    padding: 2px 0;
+    outline: 2px solid black;
+    border-radius: 10px;
+    background-color: rgba(181, 173, 173, 0.746);
+    box-shadow: 2px 2px 2px green;
+    text-align: center;
+}
+#screen >p{
+    font-weight: 700;
+}
